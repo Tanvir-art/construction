@@ -1,0 +1,140 @@
+.h-wrapper{
+    background-image: url('../../public/hero.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+.text-wrapper{
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.heroSection{
+    margin-top: 11rem;
+}
+.heroSection>h4{
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 4rem;
+}
+.heroSection>h2{
+    color: white;
+    font-size: 3rem;
+    font-weight: bolder;
+}
+.heroSection>p{
+    color: white;
+    padding: 0 5rem;
+    line-height: 2;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.heroSection>button{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: white;
+    padding: 0.7rem 2rem;
+    font-weight: bold;
+    margin-bottom: 4rem;
+}
+.heroSection>button:hover{
+    background-color: #ffffff;
+    color: #333;
+}
+
+@media (max-width:1497px){
+    .heroSection{
+        margin-top: 6.5rem;
+    }
+    .heroSection>h4{
+        color: white;
+        font-size: 1.3rem;
+        font-weight: 400;
+        padding-top: 2rem;
+    }
+    .heroSection>h2{
+        color: white;
+        font-size: 2.2rem;
+        font-weight: bolder;
+    }
+    .heroSection>p{
+        color: white;
+        padding: 0 5rem;
+        line-height: 2;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .heroSection>button{
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        color: white;
+        padding: 0.7rem 2rem;
+        font-weight: bold;
+        margin-bottom: 3rem;
+    }
+}
+@media (max-width:998px){
+    .heroSection{
+        margin-top: 7rem;
+    }
+    .heroSection>h4{
+        color: white;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding-top: 3rem;
+    }
+    .heroSection>h2{
+        color: white;
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+    .heroSection>p{
+        color: white;
+        padding: 0 5rem;
+        line-height: 1.5;
+        font-size: 1rem;
+        font-weight: 400;
+    }
+    .heroSection>button{
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        color: white;
+        padding: 0.5rem 1.5rem;
+        font-weight: bold;
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width:556px){
+    .heroSection{
+        margin-top: 7.5rem;
+    }
+    .heroSection>h4{
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+        padding-top: 3rem;
+    }
+    .heroSection>h2{
+        color: white;
+        font-size: 1.5rem;
+        font-weight: bolder;
+    }
+    .heroSection>p{
+        color: white;
+        padding: 0 5rem;
+        line-height: 1.5;
+        font-size: 0.9rem;
+        font-weight: 400;
+    }
+    .heroSection>button{
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        color: white;
+        padding: 0.3rem 1rem;
+        font-weight: bold;
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+}

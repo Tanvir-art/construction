@@ -1,0 +1,184 @@
+.m-wrapper{
+    padding-bottom: 45rem;
+    height: 100vh;
+    background-color: #2b2b35;
+    padding-top: 5rem;
+}
+.tavsButton{
+    margin: 0 1rem;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    background-color: #fcdb16 !important;
+    color: #2b2b35;
+    font-weight: bold;
+    z-index: -1;
+}
+.nav-tabs{
+    border-bottom: none;
+}
+.navsitem>ul>li>button{
+    background-color: #41414a  !important;
+    padding: 1rem 1.7rem;
+    color: #fcdb16;
+}
+.navsitem>ul>li>button:hover{
+    color: white;
+}
+.img{
+    width: 36rem;
+    height: 30rem;
+    margin-top: 5rem;
+    overflow: hidden;
+}
+.missionText{
+    padding-top: 7rem;
+}
+.missionText>h2{
+    color: white;
+    margin-top: 5rem;
+}
+.missionText>p{
+    color: white;
+}
+.missionText>button{
+    padding: 0.7rem 1.2rem;
+    background-color: #fcdb16;
+    color: #2b2b35;
+    font-weight: bold;
+    border: none;
+}
+@media (max-width:1399px){
+    .missionText {
+        margin-left: 3rem;
+    }
+}
+@media (max-width:1199px){
+    .missionText {
+        padding-top: 4rem;
+        margin-left: 4rem;
+    }
+    .missionText>h2{
+        color: white;
+        margin-top: 3rem;
+    }
+    .missionText>p{
+        color: white;
+    }
+    .missionText>button{
+        padding: 0.5rem 1rem;
+        background-color: #fcdb16;
+        color: #2b2b35;
+        font-weight: bold;
+        border: none;
+    }
+    .img{
+        width: 30rem;
+        height: 25rem;
+        margin-top: 5rem;
+        overflow: hidden;
+    }
+}
+
+@media (max-width:991px){
+    .missionText {
+        margin-left: 4rem;
+    }
+    .missionText>h2{
+        color: white;
+        font-size: 1.7rem;
+        margin-top: 1.8rem;
+    }
+    .missionText>p{
+        font-size: 1rem;
+    }
+    .missionText>button{
+        padding: 0.5rem 1rem;
+        background-color: #fcdb16;
+        color: #2b2b35;
+        font-weight: bold;
+        border: none;
+    }
+    .img{
+        width: 25rem;
+        height: 25rem;
+        margin-top: 5rem;
+        overflow: hidden;
+        margin-top: 9rem;
+    }
+}
+
+@media (max-width:767px){
+    .missionText {
+        margin-left: 3rem;
+    }
+    .missionText>h2{
+        color: white;
+        font-size: 1.5rem;
+        margin-top: 1.8rem;
+    }
+    .missionText>p{
+        font-size: 0.8rem;
+    }
+    .missionText>button{
+        padding: 0.3rem 0.7rem;
+        background-color: #fcdb16;
+        color: #2b2b35;
+        font-weight: bold;
+        border: none;
+    }
+    .nav-tabs .nav-link {
+        font-size: 0.9rem !important;
+    }
+    .img{
+        width: 15rem;
+        height: 15rem;
+        overflow: hidden;
+        margin-top: 8rem;
+    }
+    .m-wrapper{
+        padding-bottom: 36rem;
+        height: 100vh;
+        background-color: #2b2b35;
+        padding-top: 4rem;
+    }
+}
+@media (max-width:576px){
+    .tabDirection{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        width: 25rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+    .m-wrapper{
+        padding-bottom: 40rem;
+        height: 100vh;
+        background-color: #2b2b35;
+        padding-top: 2rem;
+    }
+    .missionText>h2{
+        color: white;
+        text-align: center;
+        font-size: 1.5rem;
+        margin-top: -1rem;
+    }
+    .missionText>p{
+        font-size: 0.9rem;
+    }
+    .missionText>button{
+        margin-left: 10rem;
+    }
+}
+@media (max-width:576px){
+    .tabDirection{
+        display: flex;
+        flex-direction: column;
+    }
+    .img{
+        width: 20rem;
+        margin: 0 auto;
+        margin-top: 2rem;
+    }
+}

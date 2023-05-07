@@ -1,0 +1,56 @@
+.detailsAbout{
+  padding: 5rem 0;
+}
+.detailsImage{
+    display: flex;
+}
+.firstimg{
+    margin-right: 2rem;
+}
+.detailsImage img{
+    width: 20rem;
+    height: 20rem;
+    overflow: hidden;
+}
+.experience{
+    margin-left: 2rem;
+}
+.experience h4{
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+.experience h2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.experience p{
+    font-size: 1.2rem;
+    font-weight: 350;
+}
+.experience h2::after {
+    background: #fcdb16 none repeat scroll 0 0;
+    bottom: -1rem;
+    content: "";
+    left: 0;
+    position: absolute;
+    width: 7rem;
+    height: .2rem;
+    
+}
+.year{
+    display: flex;
+    position: relative;
+}
+.year h1{
+    font-size: 5rem;
+    color: #fcdb16;
+}
+.year h5{
+    font-size: 2rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 0;
+    padding:1.2rem  3rem;
+}
